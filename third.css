@@ -1,0 +1,147 @@
+body {
+    background-color:burlywood;
+}
+.h1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-style: none;
+}
+
+h2 {
+    background: firebrick;
+    margin: 20px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:crimson ;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav li {
+    display: inline;
+    float: left;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.nav li a:hover {
+    background-color: aquamarine;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.list {
+    background-color:gainsboro;
+}
+
+.lore {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: indianred;
+    padding: 10px;
+    margin: 10px;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:lightblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    border-style: groove;
+    border-width: 10px;
+    margin: 10px;
+    margin-left: 300px;
+}
+.img1 {
+    margin-left: 175px;
+}
+
+div {
+    border-style: ridge;
+}
+
+footer {
+    background-color: crimson;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+p.first::first-line {
+    color: rebeccapurple;
+}
+p.first::first-letter {
+    color:chartreuse
+}
+
+::selection {
+    color: silver;
+    background-color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-image: purple;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+div.first {
+    opacity: 0.7;
+}
+div.second {
+    opacity: 0.2;
+}
+div.third {
+    opacity: 0;
+}
+div.third:hover {
+    opacity: 1;
+}
+
+div.gallary img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
